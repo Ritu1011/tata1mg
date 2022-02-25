@@ -1,0 +1,64 @@
+
+#container{
+    /* border: 1px solid red; */
+    background-color: rgb(246,246,246);
+    font-family:"Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 645px;
+}
+#header{
+    /* border: 1px solid blue; */
+    height: 45px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+}
+#logo{
+    src: url("https://www.1mg.com/images/tata_1mg_logo.svg");
+    margin-left: 20px;
+    height: 80%;
+    cursor: pointer;
+}
+#search{
+    margin-right: 36%;
+}
+#help{
+    font-family:"Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+#inputheader{
+    width: 600px;
+    height: 72%;
+    background-color: rgb(241,244,246);
+    border: none;
+    margin-left: 5%;
+    margin-top:5px ;
+    padding-left: 20px;
+}
+#body{
+    /* border: 1px solid red; */
+    height: 50%;
+    width: 25%;
+    margin: auto;
+    margin-top: 7%;
+    text-align: center;
+    font-family:"Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#oops{
+    font-size: 16px;
+    margin: 5% 0%;
+    color:rgb(51, 51, 51);
+}
+#text{
+    margin-bottom: 7%;
+    color:rgb(51, 51, 51);
+    font-size: 14px;
+}
+a{
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: 400;
+}

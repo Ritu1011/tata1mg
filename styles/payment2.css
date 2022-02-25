@@ -1,0 +1,379 @@
+#payment_page{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(248,248,248);
+    font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#pay_boxfirst{
+    width: 100%;
+    height:6%;
+    background-color: white;
+    display:flex;
+}
+
+#pay_boxsecond{
+    width: 100%;
+    height: 80%;
+}
+
+#pay_leftbox{
+    width: 40%;
+    height: 100%;
+display: flex;
+}
+#pay_leftbox>#tata,#mycart,#summary,#payment{
+    width: 25%;
+    height: 100%;
+}
+#pay_rightbox{
+    width: 10%;
+    height: 100%;
+    margin-left: 50%;
+}
+#help{
+    padding-top: 10%;
+    padding-left: 35%;
+}
+#pay_boxsecond{
+    width: 68%;
+    height:70%;
+    display:flex;
+    margin: auto;
+    margin-top: 2%;
+}
+ #pay_leftbox1{
+    width: 62%;
+    height: 100%;
+    background-color: white;
+     display: flex;
+}
+#pay_rightbox1{
+    width: 35%;
+    height:100%;
+    margin-left: 3%;
+}
+#discount{width: 100%;
+    height:20%;
+}
+#cash{width: 100%;
+    height:23%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#total{width: 100%;
+    height:40%;
+    background-color: white;
+   
+}
+
+
+.cartSummary{
+    height: 12%;
+    padding:6px 16px;
+    color:rgb(117, 117, 117);
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.3rem;
+}
+#fontbold{
+    font-weight:700;
+    font-size:14px;
+    
+}
+.summaryline{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#cartTotalSavings{
+    height:16% ;
+    background-color:rgb(228, 246, 231);
+    padding: 8px 16px; 
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6rem;
+}
+#totalSavingFont{
+    font-size: 12px;
+    color:rgb(117, 117, 117);
+}
+#totalSavingGreen{
+    font-weight:700;
+    font-size:14px;
+    color: green;
+}
+
+
+
+
+
+#button{width: 100%;
+    height:7%;
+    border: none;
+    background-color: rgb(238, 78, 78);
+    border-radius:3%;
+    color: white;
+    text-align: center;
+    cursor: pointer;  
+}
+#button a{
+    text-decoration: none;
+    color: #f8f8f8;
+}
+#for_option{
+    width: 35%;
+    height:100%;
+    background-color: #fff3e3;
+}
+#detials{
+    width: 65%;
+    height:100%;
+    background-color: white;
+    padding-left: 30px;
+}
+#scroll{
+    width: 5%;
+    height:100%;
+}
+#pay_boxthird{
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+    display: flex;
+}
+ #condition{
+    width: 44%;
+    height:100%;
+    margin-left: 13%;
+}
+#line1{
+    width: 100%;
+    height:.25%;
+ background-color: grey;
+} 
+#con_box{
+    width: 100%;
+    height:99.75%;
+    font-size: 12px;
+    color:#757575;
+}
+#service{
+    width:25%;
+    height:100%;
+    margin-left: 2%; 
+    /* margin-right: ; */
+}
+#sev_box{
+    width:100%;
+    height:100%;
+    font-size: 12px;
+    color:#757575;
+}
+#offer{
+    width: 100%;
+    height: 70%;
+    border-bottom: 1px solid #f8f8f8;
+   display: flex; 
+} 
+
+#imgbox{
+    width: 10%;
+    height:80%;
+    background-color: white;
+    padding-top: 4%;
+
+}
+#offer_dec{
+    width: 90%;
+    height:80%;
+    font-size: 14px;
+    padding-top: 4%;
+    display: block;
+    background-color: white;
+}
+#button_N{
+    padding-bottom: 20%;
+}
+#for_option>#wallet,#UPI,#card,#netbanking,#ondelivery{
+    width: 100%;
+    height:10%;
+    display: flex;
+    cursor: pointer;  
+}
+
+.image{
+    width: 20%;
+    height:85%;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+.imagebox{
+    width: 75%;
+    height:70%;
+    font-size: 14px;
+    padding-top: 7%;
+    margin-left: 3%;
+}
+#image,#imagebox:hover{
+    background-color: #fff;
+}
+
+#CandD{
+    width: 100%;
+    height:10%;
+    border:1px solid white; 
+    line-height: 5px;
+}
+p{
+    font-size: 12px;
+    color:#6e6c6c;
+}
+#carddetail{
+    width: 100%;
+    height:35%; 
+    margin-top: 5%;
+}
+#show{
+    height: 20%;
+    width:100% ;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    font-size: 14px;
+}
+#pay_using_box{
+    width: 100%;
+    height:70%;
+    display: flex;
+    background-color: white;
+}
+#checkbox1{
+    height: 100%;
+    width: 18%;}
+#pay_using{
+    width: 90%;
+    height:100%;
+}
+#balance{
+    width: 100%;
+    height:27%;
+    display: flex;
+    font-size: 12px;
+justify-content: space-between;
+}
+#cx_box1{
+    width: 70%;
+    height: 35%;
+    background-color:white;
+
+}
+#arrow{
+    width: 10%;
+    height:100%;}
+#basic_info{
+    width: 100%;
+    height:50%;}
+#checkbox{
+    height: 12%;
+    width: 100%;    display: block;
+}
+#cx_box{
+    width:10%;
+    height:98%;
+    background-color:white;
+
+}
+#for_details{
+    height: 30%;
+    width: 80%;
+}
+#button2{
+    height:15%;
+    justify-content: flex-end;
+    border-radius:3%;
+    color: white;
+}
+    
+#button2>button{
+background-color: rgb(238, 78, 78);
+margin-right: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 3%;
+    text-align:right;
+    cursor: pointer;    
+    color: white;
+    border: none;
+}
+#endbox{
+    margin-top: 8%;
+    height: 30%;
+    width: 100%;
+}
+#av_logo{
+    height: 30%;
+    width: 100%;
+}
+#paylogo{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+input{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0px 5px;
+    line-height: 1.6em;
+    border: 0px solid transparent;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+    outline: 0;
+    color: #212121;
+    height: 30px;
+    width: 90%;
+}
+input:focus{
+}
+#payCardNumbar{
+    height: 30%;
+    width: 100%;
+}
+#ExpirySecurity{
+    height: 35%;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+}
+#expirydata{
+    height: 100%;
+    width: 45%;
+    margin-right: 10%;
+}
+#Securitycode{
+    height: 100%;
+    width: 45%;    
+}
+#name_on_card{
+    margin-top: 1%;
+    height: 25%;
+    width: 100%;
+}
+.logo_X{
+
+    height: 50%;
+    width: 10%;
+    display: flex;
+    margin: 10px;
+}
+.logo_X>img{
+    object-fit: contain;
+}
+
+#termsCondition{
+    text-decoration: none;
+    color:  rgb(238, 78, 78);
+}
+

@@ -1,0 +1,4 @@
+var url = location.protocol + '//static.legitscript.com';
+document.write('<a href="http://legitscript.com" target="_blank" title="Verify LegitScript Approval">');
+document.write('<img src="' + url + '/seals/729605.png" alt="LegitScript approved" width="140" height="100" border="0" />');
+document.write('</a>');

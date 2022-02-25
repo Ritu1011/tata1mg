@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://www.1mg.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	
+    <script src="./jquery.min.js.download"></script>
+    
+    <style type="text/css">
+    	body{
+    		background-color: rgb(0, 0, 0 );
+                color: #FFF;
+                 background-image: ;
+    		line-height: 33px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                margin: 0;
+    	}
+        img {
+            vertical-align: middle;
+            border: 0 none;
+        }
+    	.poweredby{
+    		width: 38px;
+    		float:left;
+    		margin-right:5px;
+    		text-align: center;
+    	}
+    	.content{
+                margin-right:30px;
+                text-align: center;
+    	}
+        .action{
+                margin-left: 10px;
+                text-decoration: none;
+        }
+        p{
+                margin: 0px;
+        }
+        .btn{
+            border-radius : 2px;
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 0;
+            text-align: center;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+        .btn-xs {
+            font-size: 14px;
+            line-height: 1.5;
+            padding: 1px 5px;
+        }
+        .btn-default{
+                background-color: #FF6F61;
+                border-color: #FF6F61;
+                color: rgb(255, 255, 255);
+        }
+                .btn-default:hover {
+                background-color: #FF6F61;
+                -webkit-filter: contrast(160%);
+                border-color: #FF6F61;
+                color: rgb(255, 255, 255);
+        }   
+        
+    </style>
+</head>
+<body class="animated slideInLeft" style="" marginwidth="0" marginheight="0">
+    
+    <div class="content">
+        <div style="display:inline-block;"><div style="width: 100vw; display: inline-flex; justify-content: space-around; align-items: center; height: 35px;">
+<div style="width: 100%;">
+<p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-family: Arial;"><span style="font-size: 14.6667px; white-space: pre-wrap;"><span style="font-family: Arial;"><span style="font-family: Arial;"><span style="font-size: 14.6667px; white-space: pre-wrap;"><span style="color: #fffff; font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold;">Limited period offer:</span> <span style="color: #fffff; font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Ubuntu, Helvetica, Arial, sans-serif; font-size: 15px; white-space: normal;">Get up to 25% off + 5% 1mgCash on medicines &amp; more offers.&nbsp;</span></span></span></span></span></span><a style="font-size: 11pt; text-decoration: none;" href="https://www.1mg.com/offers"><span style="color: #ff6f61; font-weight: 600;"><strong>Explore</strong></span></a></p>
+</div>
+</div>
+<script type="mce-text/javascript">// <![CDATA[
+setTimeout(function(){ 
+document.getElementById("app_download").onclick = function(){
+myFunction();
+// gapush2('click');
+}
+
+function gapush2(type){ 
+var j = ['NotifyVisitors',"Get_the_app","13239",type]; 
+var name = JSON.stringify(j); 
+var domain = window.location.href;
+var message = name; 
+console.log(name);
+parent.postMessage(message,domain); 
+}
+
+function myFunction(){
+var url = "https://www.1mg.com/download";
+ var data = ['NotifyVisitors_button_click','Prod_Contains all City','13239','Clicks',url]; 
+ var jsonData = JSON.stringify(data);
+ var domain = window.location.href;
+ var message = jsonData;
+ parent.postMessage(message, domain);
+}
+
+ }, 100);
+// ]]></script>    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $("a:not('#poweredby'),button").click(function() {
+                ga_event('NotifyVisitors-'+2023,"Prod_Contains all City_normal(13453)",'Clicks');
+                gapush('nv_banner_clicks',false);
+                
+                let href = '';
+                if($(this).attr('href')){
+                    href = $(this).attr('href');
+                }else if($(this).attr('data-href')){
+                    href = $(this).attr('data-href');
+                }
+
+                let target = '';
+                if($(this).attr('target')){
+                    target = $(this).attr('target');
+                }else if($(this).attr('data-target')){
+                    target = $(this).attr('data-target');
+                }
+                
+                parent.postMessage(JSON.stringify({
+                    message: "bannerClicked",
+                    nvData: {
+                        url: 'https://www.notifyvisitors.com/user/notifications_v2/callToAction?notificationid=13453&brandid=2023&tokens=%22%22&nv_uid=',
+                        data: {
+                            href: href,
+                            target: target,
+                            referrer: window.location.href,
+                            linkreferrer: document.referrer,
+                            closeBtn: 1,
+                            mode: 0,
+                            mode_id: 0,
+                            utm_conversion: 1                        }
+                    }
+                }), window.location.href);
+                
+                return false;
+            });
+                   
+            function gapush(type,interaction){
+                    var j = ['NotifyVisitors',"Prod_Contains all City_normal","13453",type,interaction];
+                    var name = JSON.stringify(j);
+                    var domain = window.location.href;
+                    var message = name;
+                    //console.log(domain);
+                    parent.postMessage(message,domain); 
+            }
+            
+                            
+                $(function(){
+                    var j = ['nv_iframeDisplay','singleLineBar',"13453",'{"repeat_notification":"0","template":"5","name":"Prod_Contains all City_normal","repeat_view":"0"}'];
+                    var message = JSON.stringify(j); 
+                    var domain = window.location.href;
+                    parent.postMessage(message,domain);
+                });
+            
+                
+        });
+    </script> 
+    
+     
+    
+        </div>
+
+<script>
+
+  function ga_event(category, action, label){
+      
+  }
+
+</script>
+
+</body></html>

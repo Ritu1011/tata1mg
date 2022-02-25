@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1mg|Payment</title>
+  <link rel="shortcut icon" href="https://assets.1mg.com/pwa-app/production/1.1.5/static/images/site-icons/1mg-favicon.ico">
+    <link rel="stylesheet" href="styles/payment2.css">
+
+</head>
+<body>
+    <div id="payment_page">
+        <!-- first box -->
+     <div id="pay_boxfirst">
+         <div id="pay_leftbox">
+            <div id="tata"><img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt=""></div>
+            <div id="mycart"></div>
+            <div id="summary"></div>
+            <div id="payment"></div>
+        </div>
+           <div id="pay_rightbox">
+            <div id="help">Need Help?</div>
+        </div>
+     </div>
+     <!-- second box -->
+     <div id="pay_boxsecond">
+             <div id="pay_leftbox1">
+                 <div id="for_option">
+                   <div id="wallet">
+                       <div class="image"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172217/marketing/vvew3rcvwfjrhknifj1z.png"></div>
+                       <div class="imagebox">
+                        WALLET</div>
+                   </div>
+                    <div id="UPI">
+                        <div class="image"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1581576219/marketing/p0w0w4crcgcthkom8j23.png"></div>
+                    <div class="imagebox">
+                        UPI
+                    </div>
+                </div>
+                     <div id="card" style="background-color: white;">
+                        <div class="image"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172186/marketing/p45zk16fua8dmxany3up.png"></div>
+                        <div class="imagebox">CARDS</div>
+                     </div>
+                     <div id="netbanking">
+                        <div class="image"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172229/marketing/bsnk5fvtd4b6xffsvjdm.png"></div>
+                        <div class="imagebox">INTERNET BANKING</div>
+                     </div>
+                     <div id="ondelivery">
+                        <div class="image"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530172202/marketing/pyzcsicqsnwawi4yrpo7.png"></div>
+                        <div class="imagebox">PAY ON DELIVERY</div>
+                     </div>
+                
+                </div>
+                 <!-- card details -->
+                 <div id="detials">
+                      <div id="CandD"><h4>Credit & Debit Cards</h4>
+                       <p> Add New Card For Payment</p>
+                        </div>
+                        <div id="carddetail">
+                            
+                                <div id="pay_CardNumbar">
+                                <label><p>Card Numbar</p></label>
+                                <input type="text" placeholder="XXXX XXXX XXXX">
+                        
+                        </div>
+                         
+                         <div id="ExpirySecurity">
+                            <div id="expirydata"> <label><p>Expiry Date</p></label>
+                                <input type="text" placeholder="MM/YY"></div>
+                            <div id="Securitycode"> <label><p>Security Code</p></label>
+                                <input type="text" placeholder="XXXX"></div>
+                            </div>
+                    <div id="name_on_card">
+                        <input type="text" placeholder="Name On Card">
+                    </div>
+                        </div>
+                        <div id="basic_info">
+                            <div id="checkbox">
+                             <input id="cx_box" type="checkbox" >
+                            </div>
+                           <div id="for_details"><p>Your card details will be saved securely for future transactions, based on the industry standards.</p></div>
+                        <div id="button2">
+                            <button onclick="cardPayment()">MAKE PAYMENT</button>
+                            </div>
+                        <div id="endbox">
+                        <div id="av_logo"> <p>We support domestic credit and debit cards of following brands</p></div>
+                        <div id=paylogo>
+                        
+                           <div class="logo_X" style="margin-left: 30%;"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530098811/marketing/szfylmvspyj5ccvhesnp.png"></div>
+                        
+                            <div class="logo_X"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530098792/marketing/vujtyvkwxchd16egv0wt.png"></div>
+                            <div class="logo_X"><img src="https://res.cloudinary.com/du8msdgbj/image/upload/q_auto,f_auto/v1530098898/marketing/rv6lj5fubobesvsomlzr.png"></div>
+                    
+                        </div>
+                        </div>
+                        </div>
+                        
+                     </div>
+                   
+                 <div id="scroll"></div>
+             </div>
+             <div id="pay_rightbox1">
+                 <div id="discount">
+                     <div id="offer">
+                         <div id="imgbox">
+                         <img src="	https://res.cloudinary.com/du8msdgbj/image/upload/v1609235175/rwfhtgwtk8zmnbwdvfme.png" alt=""></div>
+                         <div id="offer_dec">
+                            Pay with Paytm wallet on Tata 1mg for ₹999 or more and get 5000 cashback points.
+                         </div>
+                         <div class="line1"></div>
+                     </div>
+                     
+                     <div id="show"><div>SHOW ALL PAYMENT OPTION</div>
+                     <div id="arrow"><img src="https://www.1mg.com/images/chevron_right_18.svg" alt="show all"></div>
+                    </div>
+                    
+                    
+                 </div>
+                 <div id="cash">
+                     <div id="pay_using_box">
+                     <div id="checkbox1">
+                     <input id="cx_box1"type="checkbox" >
+                    </div>
+                    <div id="pay_using"><div style="font-size: 14px;">Pay using 1mgCash</div>
+                       <p> ₹ 75.0 of your order amount is eligible for payment through 1mgCash </p></div>
+                    
+                </div>
+                <div id="balance">
+                    <p>Available balance: ₹75.0</p>
+                    <p>How 1mgCash works?</p>
+                </div>
+                 </div>
+                 <div id="total">
+                    <div>
+                        <div class="cartSummary">
+                            <span>Item Total(MRP)</span>
+                            <span id="cartSummarymrp">₹1990</span>
+                        </div>
+                        <div class="cartSummary">
+                            <span>Price Discount</span>
+                            <span id="cartSummaryDiscount">-₹995</span>
+                        </div>
+                            <hr>
+                        <div class="cartSummary">
+                            <span>Shipping Fee</span>
+                            <span id="cartSummaryShippingFee">As per delivery address</span>
+                        </div>
+                            <hr>
+                        <div class="cartSummary"  id="fontbold">
+                            <span>To be paid</span>
+                            <span id="cartSummaryToBePaid">₹995</span>
+                        </div>
+                        <div id="cartTotalSavings">
+                            <span id="totalSavingFont">Total Savings</span>
+                            <span id="totalSavingGreen">₹995</span>
+                        </div>
+                    </div>
+                 </div>
+                 <button onclick="cardPayment()" id="button"> <a href="success.html"> MAKE PAYMENT</a></button>
+             </div>
+        
+     </div>   
+     <!-- third box -->
+       <div id="pay_boxthird">
+           
+           <div id="condition">
+               <div id="line2"></div>
+               <div id="con_box">1mg is a technology platform to facilitate transaction of business. 
+                   The products and services are offered for sale by the sellers. 
+                   The user authorizes the delivery personel to be his agent for delivery of the goods. 
+                   For details read <a href="" id="termsCondition">terms and conditions.</a> </div>
+           </div>
+<div id="service">
+       <div id="line3"></div>
+        <div id="sev_box">*1mgCash will be credited 7 days after your complete order is delivered in case of Products 
+            and in case of Lab Services 1mgCash will be credited within 24 hours from the time of generation of test report. 
+            1mgCash will not be credited in case a return request is initiated for the order.   <br>
+            **Coupon Discount change if the total order value changes.</div>
+</div>
+       </div>
+    </div>
+
+</body>
+</html>
+
+<script src="payment2.js"></script>
+
+<!-- border-bottom: 1px solid #f8f8f8; -->
+<!-- font-size: 14px !important;
+    font-weight: normal;
+    padding: 0px 5px;
+    line-height: 1.6em;
+    border: 0px solid transparent;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+    outline: 0;
+    color: #212121;
+    height: 30px;
+} -->

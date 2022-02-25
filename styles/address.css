@@ -1,0 +1,224 @@
+#head {
+  height: 47px;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  border-bottom: 1px solid #f1f4f6;
+  box-sizing: border-box;
+}
+#topcol {
+  height: 47px;
+  width: 732px;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  float: left;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+}
+#topcol > img {
+  width: 124px;
+  aspect-ratio: auto 124 / 35;
+  height: 35px;
+}
+#cartstep {
+  margin-top: 12px;
+  display: block;
+  padding: 0 16px;
+}
+
+#littlebox {
+  font-size: 16px;
+  padding-bottom: 8px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  margin-right: 0;
+  padding: 0;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-right: 40px;
+}
+#stylespan {
+  position: relative;
+  font-size: 14px;
+  background-color: #ff6f61;
+  position: relative;
+  border-color: #ff6f61;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-right: 5px;
+  color: white;
+}
+#addresscont {
+  height: 560px;
+  width: 580px;
+
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  text-size-adjust: 100%;
+  padding: 12px 0;
+  margin: 0;
+  position: relative;
+  padding-top: 12px;
+  margin-left: 11.11133%;
+  margin-top: 50px;
+}
+#col1 {
+  margin-bottom: 8px;
+  color: #212121;
+  font-size: 16px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 130px;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#addressfill {
+  width: 555.328px;
+  height: 520.156px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  background: #fff;
+  margin-bottom: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+#addresstext {
+  width: 511.328px;
+  height: 67.266px;
+  border: 1px solid #e8e8e8;
+  /* border: 1px solid #ef4747; */
+  border-radius: 4px;
+  padding: 0 4px;
+  overflow-x: hidden;
+}
+#AddressFilltextarea {
+  height: 51.422px;
+  width: 501.328px;
+  font-size: 12px;
+  border: 0 none;
+  outline: none;
+  resize: none;
+  box-shadow: none;
+}
+#addresserror {
+  width: 521.328px;
+  height: 17.141px;
+  font-size: 12px;
+  padding: 4px 0 8px;
+  color: #ef4747;
+  margin-top: -3px;
+}
+#addressland {
+  width: 511.328px;
+  height: 27.141px;
+  margin-bottom: 16px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 0 4px;
+  overflow-x: hidden;
+}
+.AddressFilltextbox {
+  width: 100%;
+
+  border: 0 none;
+  outline: none;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: inherit;
+  color: inherit;
+
+  margin: 0;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#addressall {
+  width: 511.328px;
+  height: 27.141px;
+  margin-bottom: 16px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+#addressfilltype {
+  font-size: 12px;
+  font-weight: 700;
+  color: hsl(0, 0%, 62%);
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+  line-height: 1.42857143;
+}
+#addressbottom {
+  height: 40px;
+  width: 521.33px;
+
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: 10px;
+}
+#lastrow {
+  width: 555.328px;
+  height: 205.531px;
+
+  margin-top: 10px;
+  margin-left: 120px;
+  display: flex;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#lastcol1 {
+  height: 89.41px;
+  width: 300px;
+
+  margin-top: 20px;
+}
+#lastcoltext {
+  border-top: 1px solid #c7c7c7;
+  bottom: 0;
+  color: #757575;
+  font-size: 10px;
+  margin-top: 40px;
+  padding: 8px 16px;
+}
+#lastcol2 {
+  height: 180px;
+  width: 210px;
+
+  margin-left: 40px;
+  margin-top: 20px;
+}
+#lastcoltext2 {
+  display: inline;
+  font-size: 12px;
+  padding-right: 4px;
+}
+#cartstep {
+  display: flex;
+  grid-gap: -20px;
+}
+#main {
+  background-color: #f8f8f8;
+}
+#help {
+  min-height: 24px;
+  padding: 10px 20px;
+  min-width: 90px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+  font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
