@@ -282,7 +282,7 @@ product.map(function(elem){
     div.addEventListener("click",function(){
         console.log(elem);
         var view = [elem];
-        window.open('single.html', '_blank');
+        window.open('productDetails.html', '_blank');
         localStorage.setItem("view",JSON.stringify(view))
     })
 
