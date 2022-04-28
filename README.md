@@ -2,7 +2,7 @@
 
 ### _<u>Tech</u>_
 
-We make clone of <a href="https://www.1mg.com/" target="_blank">1mg.com</a>. With our efforts and the technology stack, that we have learned till now in Unit-2 in Masai School,we were able to successfully cloned with some e-commerce functionalities.
+I built clone of <a href="https://www.1mg.com/" target="_blank">1mg.com</a>. My efforts and the technology stack, that I have learned till now in Unit-3 in Masai School, I was  able to successfully cloned with some e-commerce functionalities.
 
 <div style='page-break-after: always'></div>
 
