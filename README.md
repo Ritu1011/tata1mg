@@ -41,7 +41,7 @@ Download or clone the Repo and Run Locally
 
 ### _<u>Project deployed link</u>_
 ```
-<a href="https://tata1mg-iota.vercel.app/" target="_blank">1mg.com</a>
+https://tata1mg-iota.vercel.app/
 
 ```
 
